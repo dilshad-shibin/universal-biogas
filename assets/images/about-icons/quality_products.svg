@@ -1,0 +1,26 @@
+<svg id="quality_products" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1px;
+        fill: url(#linear-gradient);
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="62.5" y1="0.5" x2="62.5" y2="124.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffac77"/>
+      <stop offset="1" stop-color="#ff7d90"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="62.5" y1="124.5" x2="62.5" y2="0.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#46ccd7"/>
+      <stop offset="1" stop-color="#01a8d5"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="62.5" cy="62.5" r="62"/>
+  <path class="cls-2" d="M781,395a1,1,0,1,1-1,1A1,1,0,0,1,781,395Zm2,17a1,1,0,1,1-1,1A1,1,0,0,1,783,412Zm-25-8a1,1,0,1,1-1,1A1,1,0,0,1,758,404Zm16-6a1,1,0,1,1-1,1A1,1,0,0,1,774,398Zm15,5a1,1,0,1,1-1,1A1,1,0,0,1,789,403Zm-37,9a1,1,0,1,1-1,1A1,1,0,0,1,752,412Zm2.071-43.1a10,10,0,1,0-14.142,14.142L755.485,398.6l14.142-14.142Zm-12.728,12.728a8,8,0,0,1,11.314-11.314L766.8,384.456,755.485,395.77Zm52.728-21.7a10,10,0,0,0-14.142,0l-15.556,15.556,14.142,14.142,15.556-15.557A10,10,0,0,0,794.071,359.929Zm-1.414,12.728L778.515,386.8,767.2,375.485l14.142-14.142A8,8,0,0,1,792.657,372.657ZM777,392a4,4,0,1,0-4,4A4,4,0,0,0,777,392Zm-6,0a2,2,0,1,1,2,2A2,2,0,0,1,771,392Zm-5,4a4,4,0,1,0,4,4A4,4,0,0,0,766,396Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,766,402Zm10,0a4,4,0,1,0,4,4A4,4,0,0,0,776,402Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,776,408Zm-10-1a4,4,0,1,0,4,4A4,4,0,0,0,766,407Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,766,413Z" transform="translate(-704.5 -323.5)"/>
+</svg>
