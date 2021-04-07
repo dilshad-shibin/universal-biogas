@@ -109,7 +109,7 @@
                     $this.css({
                         backgroundImage: "url(" + img + ")",
                         backgroundSize: "cover",
-                        height: "100vh",
+                        height: "70vh",
                         backgroundPosition: "center center"
                     })
                 }
@@ -128,6 +128,7 @@
                 dots: true,
                 fade: true,
                 autoplay: true,
+                autoplaySpeed:3500,
                 cssEase: 'linear',
             });
         }
@@ -478,7 +479,7 @@
                     items: 1,
                 },
                 550: {
-                    items: 2,
+                    items: 1,
                     center: false,
                     margin: 10
                 },
