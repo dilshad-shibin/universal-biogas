@@ -2241,6 +2241,10 @@ img {
     color: #fff;
 }
 
+.wpo-header-style-2 .topbar .contact-info ul li:hover a {
+    color: #125da9;
+}
+
 .wpo-header-style-2 .topbar .contact-info ul li a.theme-btns {
     color: #fff;
 }
@@ -2277,6 +2281,13 @@ img {
 .wpo-header-style-2 .topbar .contact-intro ul li a {
     color: #ffffff;
     font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+.wpo-header-style-2 .topbar .contact-intro ul li:hover a {
+    color: #125da9;
 }
 
 @media (max-width: 991px) {
@@ -2335,14 +2346,6 @@ img {
     top: 1px;
     display: inline-block;
     padding-right: 3px;
-}
-
-.wpo-header-style-2 .topbar ul .fi:before,
-.wpo-header-style-3 .topbar ul .fi:before {
-    font-size: 15px;
-    font-size: 1rem;
-    color: #ffffff;
-    font-weight: 600;
 }
 
 .wpo-header-style-3 .topbar ul .fi:before {
@@ -2450,7 +2453,7 @@ img {
 
 .hero {
     position: relative;
-    height: 60vh;
+    /* height: 60vh; */
     /** slider controls **/
     /*** hero slider animation ***/
 }
@@ -3607,9 +3610,10 @@ hero-style3
 }
 
 .wpo-mission-item {
-    text-align: left;
+    text-align: center;
     margin-bottom: 15px;
     padding: 10px;
+    transition: 0.4s all;
 }
 
 .wpo-mission-item:hover {
@@ -3665,7 +3669,7 @@ hero-style3
 ======================================================*/
 
 .wpo-about-area {
-    background: #fcfcfc;
+    background: #f2f2f3;
 }
 
 .wpo-about-text .wpo-section-title,
