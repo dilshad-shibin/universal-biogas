@@ -109,7 +109,7 @@
                     $this.css({
                         backgroundImage: "url(" + img + ")",
                         backgroundSize: "cover",
-                        height: "70vh",
+                        height: "80vh",
                         backgroundPosition: "center center"
                     })
                 }
@@ -518,6 +518,24 @@
 
         });
     }
+
+    // :: 3.0 SCROLL TO TOP ACTIVE CODE
+    var offset = 300;
+    var duration = 500;
+
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > offset) {
+            $("#scrollUp").fadeIn(duration);
+        } else {
+            $("#scrollUp").fadeOut(duration);
+        }
+    });
+
+    $("#scrollUp").on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, duration);
+    });
 
 
 

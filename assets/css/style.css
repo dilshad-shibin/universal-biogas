@@ -3610,11 +3610,51 @@ hero-style3
 }
 
 .wpo-mission-item {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 15px;
-    padding: 10px;
-    transition: 0.4s all;
+    padding: 15px;
+    transition: 0.4s all ease-in-out;
+    border-radius: 5px;
 }
+
+.wpo-mission-item:hover{
+    transform: scale(1.1);
+}
+
+.wpo-mission-item.color-1{
+    background-image: linear-gradient(#46ccd7, #01a8d5);
+}
+
+.wpo-mission-item.color-2{
+    background-image: linear-gradient(#ffac77, #ff7d90);
+}
+
+.wpo-mission-item.color-3{
+    background-image: linear-gradient(#be68fe, #6d6af4);
+}
+
+
+
+.wpo-mission-item .inner-mission{
+    display: flex;
+}
+
+.wpo-mission-item .wpo-mission-heading{
+    margin-left: 15px;
+    text-align: left;
+}
+
+.wpo-mission-item .wpo-mission-heading h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wpo-mission-item .wpo-mission-content p{
+    color: #ddd;
+}
+
 
 .wpo-mission-item:hover {
     border-color: transparent;
@@ -3754,6 +3794,153 @@ hero-style3
     text-align: center;
     line-height: 26px;
 }
+
+.mission , .vision{
+    padding: 25px;
+    background: #6abe52;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+}
+
+.mission:hover, .vision:hover{
+    background-color: #2e6f1b;
+}
+
+.mission:hover .mv-head .icon , .vision:hover .mv-head .icon{
+    background-color: #6abe52;
+}
+
+.mission:hover .mv-head .icon .fa, .vision:hover .mv-head .icon .fa{
+    color: #fff;
+}
+
+.mission{
+    border-bottom: 1px solid #ccc;
+}
+
+.mv-head{
+    display: flex;
+    align-items: center;
+}
+
+.mv-head .icon{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.mv-head .icon .fa{
+    font-size: 20px;
+    color: #125da9;
+}
+
+.mv-head .head{
+    margin-left: 15px;
+}
+
+.mv-head .head h2{
+    color: #fff;
+    font-weight: 600;
+}
+
+.mv-content{
+    padding-top: 15px;
+}
+
+.mv-content p{
+    color: #fff;
+}
+
+@media(max-width: 991px){
+    .mision-vision{
+        margin-top: 50px;
+    }
+    .wpo-benefit-area .benefits-img img {
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+    .wpo-benefit-area .benefits-content{
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 576px){
+    .wpo-mission-item .wpo-mission-heading h2{
+        font-size: 22px;
+    }
+}
+
+
+/*=================================================
+#0.3 wpo-benefit-area
+===================================================*/
+.wpo-benefit-area{
+    position: relative;
+}
+
+.wpo-benefit-area .benefits-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.wpo-benefit-area .benefits-content h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.wpo-benefit-area .benefits-content h2:before{
+    content: "";
+    background-color: #125da9;
+    width: 36%;
+    bottom: -10px;
+    position: absolute;
+    left: 0;
+    height: 3px;
+}
+
+.wpo-benefit-area .benefits-content ul{
+    list-style: none;
+}
+
+.wpo-benefit-area .benefits-content ul li{
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.wpo-benefit-area .benefits-content ul li:before{
+    content: "\f1b8";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #9cc026;
+    margin-right: 15px;
+}
+
+.wpo-benefit-area .benefits-img img{
+    max-width: 480px;
+}
+
+@media(max-width: 991px){
+    .wpo-benefit-area .benefits-img img {
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+    .wpo-benefit-area .benefits-content{
+        margin-left: 0;
+    }
+    .wpo-benefit-area .benefits-content h2 {
+        font-size: 28px;
+    }
+}
+
+
 
 /*=================================================
 #0.3 video-section
@@ -4827,23 +5014,31 @@ hero-style3
 .wpo-mission-icon-6,
 .wpo-mission-icon-7,
 .wpo-mission-icon-8 {
-    /* background-image: linear-gradient(#46ccd7, #01a8d5); */
+    background-image: linear-gradient(#6abe52, #01a8d5);
     color: #fff;
     width: 100px;
     height: 100px;
-    margin: auto;
+    /* margin: auto; */
     line-height: 100px;
     border-radius: 50%;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 576px){
+    .wpo-mission-icon-5, .wpo-mission-icon-6, .wpo-mission-icon-7, .wpo-mission-icon-8{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
 }
 
 .wpo-mission-icon-6 {
-    /* background-image: linear-gradient(#ffac77, #ff7d90); */
+    background-image: linear-gradient(#ffac77, #ff7d90);
 }
 
 .wpo-mission-icon-7 {
-    /* background-image: linear-gradient(#be68fe, #6d6af4); */
+    background-image: linear-gradient(#be68fe, #6d6af4);
 }
 
 .wpo-mission-icon-8 {
@@ -4856,8 +5051,8 @@ breadcumb-style
 ------------------------------------------------------------------*/
 
 .wpo-breadcumb-area {
-    background: url(../images/breadcumb/breadcrumb.png) no-repeat center top / cover;
-    min-height: 200px;
+    background: url(../images/breadcumb/bg-slider.jpg) no-repeat center top / cover;
+    min-height: 240px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -4874,6 +5069,7 @@ breadcumb-style
     background: rgba(0, 0, 0, .7);
     content: "";
     z-index: -1;
+    opacity: .2;
 }
 
 .wpo-breadcumb-wrap {
@@ -4917,11 +5113,11 @@ breadcumb-style
 }
 
 .wpo-breadcumb-wrap ul li a:hover {
-    color: #f7c33f;
+    color: #fa4958;
 }
 
 .wpo-breadcumb-wrap ul li:last-child {
-    color: #fa4958;
+    color: #6abe52;
 }
 
 .wpo-breadcumb-wrap ul li:after {
@@ -7284,6 +7480,34 @@ Loader*
     }
 }
 
+/*----------------------------------------------
+scroll to Top*
+-----------------------------------------------*/
+#scrollUp {
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    height: 45px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #125da9;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+}
+
+#scrollUp > i {
+    font-size: 24px;
+    line-height: 44px;
+    display: block;
+    color: #fff;
+}
+
+#scrollUp:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
 
 /*----------------------------------------------
 end*
