@@ -3761,6 +3761,7 @@ hero-style3
 .video-section{
     position: relative;
     background-color: black;
+    padding: 50px 0;
 }
 
 .video-section div.video{
@@ -7089,7 +7090,7 @@ breadcumb-style
 --------------------------------------------------------------*/
 .how-it-works{
     position: relative;
-    background-color: #f7f7f7;
+    background-color: #f2f2f3;
     overflow: hidden;
     display: flex;
 }
