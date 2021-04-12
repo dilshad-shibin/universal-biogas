@@ -389,6 +389,38 @@
         });
     }
 
+     /*------------------------------------------
+        = TEAM SLIDER
+    -------------------------------------------*/
+    if ($(".wpo-case-slider").length) {
+        $(".wpo-case-slider").owlCarousel({
+            loop:true,
+            margin: 20,
+            nav: true,
+            navText: ['<i class="fi ti-angle-left"></i>','<i class="fi ti-angle-right"></i>'],
+            dots: false,
+            responsive:{
+                0 : {
+                    items: 1,
+                },
+                
+                550 : {
+                    items: 2,
+                    center: false,
+                    margin: 10
+                },
+                
+                992:{
+                    items:3
+                },
+                
+                1200:{
+                    items:3
+                }
+            }
+        });
+    }
+
 
     
 
