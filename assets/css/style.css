@@ -7782,5 +7782,52 @@ Testimonial Page*
 }
 
 /*----------------------------------------------
+CCL Area*
+-----------------------------------------------*/
+.ccl-area{
+    position: relative;
+}
+
+.ccl-content h3{
+    margin: 0;
+    color: #21212d;
+    font-weight: 700;
+    font-size: 32px;
+    /* line-height: 44px; */
+    text-transform: capitalize;
+}
+
+@media(max-width: 575px){
+    .ccl-content h3{
+        font-size: 26px;
+    }
+}
+
+.ccl-content p{
+    margin: 20px 0;
+    color: #888888;
+    line-height: 27px;
+}
+
+.ccl-content ul{
+    list-style: none;
+}
+
+.ccl-content ul li{
+    color: #888888;
+    line-height: 27px;
+}
+
+.ccl-content ul li:before{
+    content: "\f1b8";
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #9cc026;
+    margin-right: 15px;
+}
+
+
+
+/*----------------------------------------------
 end*
 -----------------------------------------------*/
