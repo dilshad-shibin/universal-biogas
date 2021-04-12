@@ -5637,12 +5637,11 @@ breadcumb-style
 }
 
 .info-item h2 {
-    font-size: 24px;
-    color: #242f6c;
-    font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 25px;
-    text-align: center;
+    color: #666666;
+    font-weight: 400;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 25px;
 }
 
 .info-icon-2 .fi:before {
@@ -5650,9 +5649,13 @@ breadcumb-style
 }
 
 .info-text span {
-    color: #666666;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 24px;
+    color: #242f6c;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 @media(max-width: 991px) {
