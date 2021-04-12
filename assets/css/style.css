@@ -110,6 +110,12 @@ img {
     }
 }
 
+@media(min-width: 576px){
+    .d-md-block{
+        display: block !important;
+    }
+}
+
 
 
 /*--------------------------------------------------------------
@@ -2250,7 +2256,7 @@ img {
 .wpo-header-style-3 .topbar ul li {
     font-size: 14px;
     float: left;
-    padding: 20px 20px;
+    padding: 20px 15px;
     color: #fff;
     line-height: 1em;
     border-right: 1px solid rgba(255, 255, 255, .1);
@@ -3629,7 +3635,7 @@ hero-style3
 }
 
 .wpo-mission-item {
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 15px;
     padding: 15px;
     transition: 0.4s all ease-in-out;
@@ -5093,7 +5099,7 @@ breadcumb-style
 
 .wpo-breadcumb-wrap {
     text-align: center;
-    /* margin-top: 10%; */
+    padding: 100px 0;
 }
 
 @media(max-width: 767px) {
