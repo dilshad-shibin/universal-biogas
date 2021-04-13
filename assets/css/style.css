@@ -8008,6 +8008,22 @@ CCL Area*
     color: #9cc026;
     margin-right: 15px;
 }
+
+/*=================================================
+# FMCG section
+===================================================*/
+.fmcg-products{
+    background: #f2f2f3;
+}
+
+.fmcg-products .wpo-case-details-tab{
+    border-bottom: 1px solid #ddd;
+}
+
+.fmcg-products .wpo-case-details-tab h2{
+    margin-bottom: 25px;
+}
+
 /*----------------------------------------------
 end*
 -----------------------------------------------*/
