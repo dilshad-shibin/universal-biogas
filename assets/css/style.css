@@ -361,6 +361,10 @@ img {
     margin-top: 7px;
 }
 
+.theme-btns:hover{
+    background-color: #0a335d;
+}
+
 @media (max-width: 991px) {
     .theme-btn,
     .theme-btns,
@@ -2351,8 +2355,8 @@ img {
     padding: 0; */
 }
 
-.wpo-header-style-2 .topbar ul>li+li,
-.wpo-header-style-3 .topbar ul>li+li {
+.wpo-header-style-2 .topbar .contact-intro ul>li+li,
+.wpo-header-style-3 .topbar .contact-intro ul>li+li {
     border-right: none;
 }
 
@@ -4564,12 +4568,9 @@ hero-style3
     background: #fff;
     box-shadow: 0px 5px 9.8px 0.2px rgba(85, 85, 85, 0.07);
     transition: all .3s;
-    padding: 30px;
-    width: 95%;
-    left: 50%;
-    transform: translateX(-50%);
+    padding: 20px;
+    width: 100%;
     position: relative;
-    margin-top: -50px;
 }
 
 .wpo-event-text h2 {
@@ -4596,6 +4597,10 @@ hero-style3
     color: #6abe52;
 }
 
+.wpo-event-item{
+    margin-bottom: 50px;
+}
+
 .wpo-event-img {
     position: relative;
 }
@@ -4610,7 +4615,7 @@ hero-style3
     position: absolute;
     top: -8px;
     right: 15px;
-    background: url(../images/event/img-1.png) no-repeat center center / cover;
+    background: url(../images/blog/img-1.png) no-repeat center center / cover;
     width: 60px;
     height: 85px;
     text-align: center;
@@ -4619,11 +4624,11 @@ hero-style3
 }
 
 .wpo-event-img .thumb-text-2 {
-    background: url(../images/event/img-2.png) no-repeat center center / cover;
+    background: url(../images/blog/img-2.png) no-repeat center center / cover;
 }
 
 .wpo-event-img .thumb-text-3 {
-    background: url(../images/event/img-3.png) no-repeat center center / cover;
+    background: url(../images/blog/img-3.png) no-repeat center center / cover;
 }
 
 .wpo-event-img .thumb-text span,
