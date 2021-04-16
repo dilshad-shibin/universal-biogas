@@ -117,6 +117,10 @@ img {
     }
 }
 
+.bg-f2f2f3{
+    background-color: #f2f2f3;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -4223,7 +4227,7 @@ hero-style3
     background: transparent;
     transition: all .3s;
     /* border: 1px solid #f8ce65; */
-    border: 1px solid #14b1b2;
+    border: 1px solid #6abe52;
 }
 
 .wpo-case-slider .owl-nav div.owl-next {
