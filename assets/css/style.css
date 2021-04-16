@@ -153,15 +153,25 @@ img {
     padding: 120px 0;
 }
 
+.section-padding-80{
+    padding: 80px 0;
+}
+
 @media (max-width: 991px) {
     .section-padding {
         padding: 90px 0;
+    }
+    .section-padding-80{
+        padding: 70px 0;
     }
 }
 
 @media (max-width: 767px) {
     .section-padding {
-        padding: 80px 0;
+        padding: 60px 0;
+    }
+    .section-padding-80{
+        padding: 70px 0;
     }
 }
 
@@ -8027,6 +8037,249 @@ CCL Area*
 .fmcg-products .wpo-case-details-tab h2{
     margin-bottom: 25px;
 }
+
+/*=================================================
+# Gallery section
+===================================================*/
+.gallery-details-tab{
+    padding: 30px 0px;
+}
+
+.gallery-details-tab .nav li a{
+    display: block;
+    height: 45px;
+    line-height: 24px;
+    text-align: center;
+    color: #2d4277;
+    transition: all .5s;
+    font-weight: 600;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    border: none;
+}
+
+.gallery-details-tab .nav li.active a,
+.gallery-details-tab .nav li:hover a {
+    background: #6abe52;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.gallery-details-text{
+    padding: 25px 30px;
+    border: 3px solid #000;
+}
+
+@media(max-width: 576px){
+    .gallery-details-text{
+        padding: 0;
+        border: none;
+    }
+}
+
+.gallery-details-text .gallery-photo{
+    margin: 15px 0;
+}
+
+/* Project Block Gallery */
+.project-block{
+    position: relative;
+    margin-bottom:16px;
+}
+
+.project-block .inner-box{
+	position:relative;
+}
+
+.project-block .image{
+	position:relative;
+}
+
+.project-block .image img{
+	position:relative;
+	width:100%;
+	display:block;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 32%);
+}
+
+.project-block .image .overlay-box{
+	position: absolute;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+	opacity: 0;
+    display: block;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+}
+
+.project-block .image .overlay-box:before{
+	position:absolute;
+	content:'';
+	right:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	display:block;
+	opacity:0;
+	text-align:center;
+	-webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+    -webkit-transform: perspective(400px) rotateY(-90deg);
+    -moz-transform: perspective(400px) rotateY(-90deg);
+    -ms-transform: perspective(400px) rotateY(-90deg);
+    -o-transform: perspective(400px) rotateY(-90deg);
+    transform: perspective(400px) rotateY(-90deg);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	background-color: rgba(34,58,102,0.60);
+}
+
+.project-block .inner-box:hover .image .overlay-box:before{
+	opacity: 1;
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -moz-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    -o-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+}
+
+.project-block .image .overlay-box:after{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	display:block;
+	opacity:0;
+	text-align:center;
+	-webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    -moz-transform: perspective(400px) rotateY(90deg);
+    -ms-transform: perspective(400px) rotateY(90deg);
+    -o-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: right;
+    -o-transform-origin: left;
+    transform-origin: left;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	background-color: rgba(34,58,102,0.60);
+}
+
+.project-block .inner-box:hover .image .overlay-box:after{
+	opacity: 1;
+    -webkit-transform: perspective(400px) rotateY(0deg);
+    -moz-transform: perspective(400px) rotateY(0deg);
+    -ms-transform: perspective(400px) rotateY(0deg);
+    -o-transform: perspective(400px) rotateY(0deg);
+    transform: perspective(400px) rotateY(0deg);
+}
+
+.project-block .inner-box:hover .image .overlay-box{
+	opacity: 1;
+}
+
+.project-block .image .overlay-box .icon-box{
+	position:relative;
+	color:#ffffff;
+	font-size:34px;
+	z-index:1;
+	margin-bottom:18px;
+}
+
+.project-block .image .overlay-box .plus{
+	position:relative;
+	z-index:1;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+	margin-top:12px;
+	display:inline-block;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.project-block .image .overlay-box .plus:hover{
+	color:#1cba9f;
+}
+
+.project-block .image .overlay-box .overlay-inner{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: left;
+    padding: 10px 20px;
+    vertical-align: middle;
+}
+
+.project-block .image .overlay-box .overlay-content{
+    position: relative;
+	text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project-block .image h3{
+	position:relative;
+	font-size:16px;
+	color:#ffffff;
+	z-index:1;
+	font-weight:500;
+	line-height:1.3em;
+}
+
+.project-block .image h3 a{
+	position:relative;
+	color:#ffffff;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.project-block .image h3 a:hover{
+	color:#1cba9f;
+}
+
+#videoGallery .video{
+    margin-bottom: 16px;
+}
+
+
+
+
 
 /*----------------------------------------------
 end*
