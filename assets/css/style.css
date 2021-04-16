@@ -66,6 +66,7 @@ a:hover {
 
 a:focus,a:hover{
     text-decoration: none;
+    color: #fff;
 }
 
 img {
@@ -373,6 +374,7 @@ img {
 
 .theme-btns:hover{
     background-color: #0a335d;
+    color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -5857,11 +5859,14 @@ breadcumb-style
 
 .wpo-case-details-tab h3{
     margin: 0 0 30px 0;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
     background: black;
-    padding: 15px 10px;
+    padding: 12px 10px;
     color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .wpo-case-details-tab .nav li a {
