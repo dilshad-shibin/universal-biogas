@@ -7567,6 +7567,7 @@ scroll to Top*
     cursor: pointer;
     z-index: 500;
     display: none;
+    transition: .3s all ease;
 }
 
 #scrollUp > i {
