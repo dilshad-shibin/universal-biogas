@@ -399,6 +399,7 @@
             nav: true,
             navText: ['<i class="fi ti-angle-left"></i>','<i class="fi ti-angle-right"></i>'],
             dots: false,
+            autoplay: true,
             responsive:{
                 0 : {
                     items: 1,
@@ -435,6 +436,7 @@
             nav: true,
             navText: ['<i class="fi ti-angle-left"></i>', '<i class="fi ti-angle-right"></i>'],
             dots: false,
+            autoplay: true,
             responsive: {
                 0: {
                     items: 1,

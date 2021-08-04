@@ -7442,18 +7442,35 @@ breadcumb-style
 }
 
 /* Modal */
+.modal-header{
+    border-bottom: 0;
+    text-align: center;
+}
+
 .modal-padding{
-    padding: 50px 20px;
+    padding: 20px;
 }
 
 .modal-title{
-    font-size: 24px;
+    font-size: 29px;
+    position: relative;
+}
+
+.modal-title::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: -8px;
+    background: linear-gradient(to right, #125da9 0%, transparent 100%);
 }
 
 .modal-header .close{
-    font-size: 51px;
+    font-size: 45px;
     position: absolute;
-    top: 0;
+    top: 6px;
     right: 24px;
     color: #21212d;
     margin-top: 0;
