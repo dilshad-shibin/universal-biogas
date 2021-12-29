@@ -8093,10 +8093,10 @@ CCL Area*
     border: none;
 }
 
-.gallery-details-text{
+/* .gallery-details-text{
     padding: 25px 30px;
     border: 3px solid #000;
-}
+} */
 
 @media(max-width: 576px){
     .gallery-details-text{
@@ -8117,15 +8117,20 @@ CCL Area*
 
 .project-block .inner-box{
 	position:relative;
+    overflow: hidden;
+    height: 280px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 32%);
 }
 
 .project-block .image{
 	position:relative;
+    height: 280px;
 }
 
 .project-block .image img{
 	position:relative;
 	width:100%;
+    height: 100%;
 	display:block;
     box-shadow: 0 4px 8px rgb(0 0 0 / 32%);
 }
@@ -8243,7 +8248,7 @@ CCL Area*
 	position:relative;
 	z-index:1;
 	color:#ffffff;
-	font-size:16px;
+	font-size: 35px;
 	font-weight:600;
 	margin-top:12px;
 	display:inline-block;
