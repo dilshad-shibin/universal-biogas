@@ -3660,6 +3660,7 @@ hero-style3
     padding: 15px;
     transition: 0.4s all ease-in-out;
     border-radius: 5px;
+    min-height: 250px;
 }
 
 .wpo-mission-item:hover{
@@ -3823,6 +3824,7 @@ hero-style3
     background: #6abe52;
     border-radius: 15px;
     margin-bottom: 15px;
+    min-height: 208px;
 }
 
 .wpo-about-area .plants h4{
@@ -4111,6 +4113,7 @@ hero-style3
 
 .wpo-case-text-top {
     padding: 30px;
+    min-height: 360px;
 }
 
 .wpo-case-text-top .top-img-text{
